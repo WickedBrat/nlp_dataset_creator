@@ -4,21 +4,28 @@ import smsJson from "./sms.json";
 
 export default function Home() {
 	const [bankSms, setBankSms] = useState([]);
+	const [documentList, setDocumentList] = useState([]);
+	const [nlpDocument, setnlpDocument] = useState({});
 	const [bankSmsCount, setBankSmsCount] = useState(0);
 	const [startOffset, setStartOffset] = useState(0);
 	const [endOffset, setEndOffset] = useState(0);
 	const [cursor, setCursor] = useState(0);
 	const numberOfFeatures = 6;
+	var featureList = ["amount", "transactionType", "accountNumber", "date", "payer", "balance"];
 
 	const addEventListeners = () => {
 		document.body.onkeyup = function (e) {
-			console.log("called", cursor);
+			setnlpDocument(
+				getUpdatedDocument(startOffset, endOffset, bankSms[bankSmsCount], featureList[cursor], nlpDocument)
+			);
 			setCursor((cursor + 1) % numberOfFeatures);
 			if ((cursor + 1) % numberOfFeatures === 0) {
 				setBankSmsCount(bankSmsCount + 1);
+				setDocumentList(documentList.concat(nlpDocument));
+				setnlpDocument({});
+				console.log(documentList);
 			}
 			clearSelection();
-			updateFeatureOffset();
 		};
 	};
 
@@ -52,9 +59,21 @@ export default function Home() {
 			},
 			false
 		);
-	}, [cursor, bankSmsCount]);
+	}, [cursor, bankSmsCount, documentList, nlpDocument]);
 
-	const updateFeatureOffset = () => {};
+	const getUpdatedDocument = (start, end, text, feature, nlpDoc) => {
+		var document = nlpDoc;
+		document.text_snippet = { content: text };
+		document.annotations = nlpDoc.annotations || [];
+		var annotation = {};
+		annotation.text_extraction = {};
+		annotation.text_extraction.text_segment = {};
+		annotation.text_extraction.text_segment.start_offset = start;
+		annotation.text_extraction.text_segment.end_offset = end;
+		annotation.display_name = feature;
+		document.annotations.push(annotation);
+		return document;
+	};
 
 	const updateLocalStorage = (bankSmsCount) => {
 		localStorage.setItem("bankSmsCount", bankSmsCount);
@@ -77,12 +96,54 @@ export default function Home() {
 					Start Offset: {startOffset} | End Offset: {endOffset}
 				</div>
 				<div className="flex justify-between w-9/12 pb-10">
-					<div className={"flex items-center px-8 py-4 rounded-xl bg-green-500 shadow-md " + (cursor === 0 && "border-t-4 border-black")}>Money</div>
-					<div className={"flex items-center px-8 py-4 rounded-xl bg-yellow-700 shadow-md " + (cursor === 1 && "border-t-4 border-black")}>Transaction Type</div>
-					<div className={"flex items-center px-8 py-4 rounded-xl bg-red-500 shadow-md " + (cursor === 2 && "border-t-4 border-black")}>A/c number</div>
-					<div className={"flex items-center px-8 py-4 rounded-xl bg-blue-500 shadow-md " + (cursor === 3 && "border-t-4 border-black")}>Date</div>
-					<div className={"flex items-center px-8 py-4 rounded-xl bg-yellow-500 shadow-md " + (cursor === 4 && "border-t-4 border-black")}>Payer</div>
-					<div className={"flex items-center px-8 py-4 rounded-xl bg-purple-500 shadow-md " + (cursor === 5 && "border-t-4 border-black")}>Available Bal</div>
+					<div
+						className={
+							"flex items-center px-8 py-4 rounded-xl bg-green-500 shadow-md " +
+							(cursor === 0 && "border-t-4 border-black")
+						}
+					>
+						Money
+					</div>
+					<div
+						className={
+							"flex items-center px-8 py-4 rounded-xl bg-yellow-700 shadow-md " +
+							(cursor === 1 && "border-t-4 border-black")
+						}
+					>
+						Transaction Type
+					</div>
+					<div
+						className={
+							"flex items-center px-8 py-4 rounded-xl bg-red-500 shadow-md " +
+							(cursor === 2 && "border-t-4 border-black")
+						}
+					>
+						A/c number
+					</div>
+					<div
+						className={
+							"flex items-center px-8 py-4 rounded-xl bg-blue-500 shadow-md " +
+							(cursor === 3 && "border-t-4 border-black")
+						}
+					>
+						Date
+					</div>
+					<div
+						className={
+							"flex items-center px-8 py-4 rounded-xl bg-yellow-500 shadow-md " +
+							(cursor === 4 && "border-t-4 border-black")
+						}
+					>
+						Payer
+					</div>
+					<div
+						className={
+							"flex items-center px-8 py-4 rounded-xl bg-purple-500 shadow-md " +
+							(cursor === 5 && "border-t-4 border-black")
+						}
+					>
+						Available Bal
+					</div>
 				</div>
 			</main>
 		</div>
