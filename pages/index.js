@@ -23,7 +23,7 @@ export default function Home() {
 				setBankSmsCount(bankSmsCount + 1);
 				setDocumentList(documentList.concat(nlpDocument));
 				setnlpDocument({});
-				console.log(documentList);
+				updateLocalStorage();
 			}
 			clearSelection();
 		};
@@ -75,8 +75,8 @@ export default function Home() {
 		return document;
 	};
 
-	const updateLocalStorage = (bankSmsCount) => {
-		localStorage.setItem("bankSmsCount", bankSmsCount);
+	const updateLocalStorage = () => {
+		localStorage.setItem("documentList", documentList);
 	};
 
 	return (
