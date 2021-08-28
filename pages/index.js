@@ -14,27 +14,30 @@ export default function Home() {
 	const classList = "flex items-center px-8 py-4 rounded-xl shadow-md";
 	var featureList = ["amount", "accountNumber", "payer", "balance"];
 
+	const moveToNextFeature = () => {
+		setCursor((cursor + 1) % numberOfFeatures);
+		if ((cursor + 1) % numberOfFeatures === 0) {
+			setBankSmsCount(bankSmsCount + 1);
+			setDocumentList(documentList.concat(nlpDocument));
+			setnlpDocument({});
+		}
+		clearSelection();
+	};
+
 	const addEventListeners = () => {
+		updateLocalStorage();
 		document.body.onkeyup = function (e) {
-			console.log(e);
 			if (e.key === "r") {
 				refreshFromLocalStorage();
+			} else if (e.key === "s") {
+				moveToNextFeature();
 			} else if (e.key === " ") {
 				{
 					setnlpDocument(
 						getUpdatedDocument(startOffset, endOffset, bankSms[bankSmsCount], featureList[cursor], nlpDocument)
 					);
-					setCursor((cursor + 1) % numberOfFeatures);
-					if ((cursor + 1) % numberOfFeatures === 0) {
-						setBankSmsCount(bankSmsCount + 1);
-						setDocumentList(documentList.concat(nlpDocument));
-						setnlpDocument({});
-						updateLocalStorage();
-					}
-					clearSelection();
+					moveToNextFeature();
 				}
-			} else if (e.key === "s") {
-				setCursor((cursor + 1) % numberOfFeatures);
 			} else if (e.key === "d") {
 				setCursor(0);
 				setnlpDocument({});
@@ -53,11 +56,6 @@ export default function Home() {
 		} else if (document.selection) {
 			document.selection.empty();
 		}
-	};
-
-	const refreshFromLocalStorage = () => {
-		setBankSmsCount(JSON.parse(localStorage.getItem("documentCount")) || 0);
-		setDocumentList(JSON.parse(localStorage.getItem("documentList")) || []);
 	};
 
 	useEffect(() => {
@@ -97,6 +95,11 @@ export default function Home() {
 	const updateLocalStorage = () => {
 		localStorage.setItem("documentList", JSON.stringify(documentList || []));
 		localStorage.setItem("documentCount", bankSmsCount);
+	};
+
+	const refreshFromLocalStorage = () => {
+		setBankSmsCount(JSON.parse(localStorage.getItem("documentCount")) || 0);
+		setDocumentList(JSON.parse(localStorage.getItem("documentList")) || []);
 	};
 
 	return (
