@@ -28,17 +28,22 @@ export default function Home() {
 	const addEventListeners = () => {
 		document.body.onkeyup = function (e) {
 			if (e.key === "r") {
+				console.log("r pressed");
 				refreshFromLocalStorage();
 			} else if (e.key === "s") {
+				console.log("s pressed");
+				console.log();
 				moveToNextFeature();
 			} else if (e.key === " ") {
-				{
+				console.log("space pressed");
+			
 					setnlpDocument(
 						getUpdatedDocument(startOffset, endOffset, bankSms[bankSmsCount], featureList[cursor], nlpDocument)
 					);
 					moveToNextFeature();
-				}
+			
 			} else if (e.key === "d") {
+				console.log("d pressed");
 				setCursor(0);
 				setnlpDocument({});
 				setBankSmsCount(bankSmsCount + 1);
@@ -76,7 +81,7 @@ export default function Home() {
 			},
 			false
 		);
-	}, [cursor, bankSmsCount, documentList, nlpDocument]);
+	}, [cursor, bankSmsCount, documentList, nlpDocument, startOffset, endOffset]);
 
 	const getUpdatedDocument = (start, end, text, feature, nlpDoc) => {
 		var document = nlpDoc;

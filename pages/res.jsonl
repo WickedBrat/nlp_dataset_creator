@@ -1,0 +1,1746 @@
+[
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 2898.00 debited from a/c **6531 on 22-08-21 to VPA healthkart.payu@hdfcbank(UPI Ref No 123401345714). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 0,
+						"end_offset": 0
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 21
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 35,
+						"end_offset": 45
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 61,
+						"end_offset": 114
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "ALERT:You&apos;ve spent Rs.189.00 via Debit Card xx0216 at PAYTM3852399 on 2021-08-21:13:36:15.Avl Bal Rs.21159.29.Not you?Call 18002586161."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 35,
+						"end_offset": 45
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 24,
+						"end_offset": 33
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 38,
+						"end_offset": 55
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 59,
+						"end_offset": 71
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs. 469.00 credited to a/c XXXXXX6531 on 20-08-21 by a/c linked to VPA grofersindiapvtltd.rzp@icici (UPI Ref No  123277076371)."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 94,
+						"end_offset": 114
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 21
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 34,
+						"end_offset": 48
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs. 50000.00 debited from a/c **6531 on 19-08-21 to a/c **6892 (UPI Ref No. 123192347510). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 78,
+						"end_offset": 137
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 23
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 37,
+						"end_offset": 47
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "UPDATE: INR 60,004.00 deposited in A/c XX6531 on 18-AUG-21 for IMPS-123019608268-WUNDERBAKED TECHNOLO-HDFC-xxxxxxxxxxx0066-8393381.Avl bal:INR 71,348.29 subject to clearing"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 74,
+						"end_offset": 100
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 8,
+						"end_offset": 21
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 35,
+						"end_offset": 45
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 81,
+						"end_offset": 101
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "UPDATE: Your A/c XX6531 credited with INR 60,004.00 on 18-08-21 by A/c linked to mobile no XX1793 (IMPS Ref No. 123019608268) Available bal: INR 71,348.2"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 139,
+						"end_offset": 152
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 38,
+						"end_offset": 51
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 13,
+						"end_offset": 23
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 99,
+						"end_offset": 124
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 241.45 debited from a/c **6531 on 18-08-21 to VPA zomato-order@paytm(UPI Ref No 123060729544). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 126,
+						"end_offset": 153
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 10,
+						"end_offset": 20
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 34,
+						"end_offset": 44
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "ALERT: You&apos;ve spent Rs.209.00  on CREDIT Card xx6749 at FOOD STREET, on 2021-08-14:18:42:01.Avl bal - Rs.525030.00, curr o/s - Rs.32970.00.Not you? Call 18002586161."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 60,
+						"end_offset": 107
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 25,
+						"end_offset": 34
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 39,
+						"end_offset": 57
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 61,
+						"end_offset": 72
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 1317.00 debited from a/c **6531 on 14-08-21 to VPA Q32192360@ybl(UPI Ref No 122636937353). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 97,
+						"end_offset": 119
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 21
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 35,
+						"end_offset": 45
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "ALERT: You&apos;ve spent Rs.590.00  on CREDIT Card xx6749 at JAWED HABIB, on 2021-08-13:19:28:36.Avl bal - Rs.525239.64, curr o/s - Rs.32760.36.Not you? Call 18002586161."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 61,
+						"end_offset": 103
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 25,
+						"end_offset": 34
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 39,
+						"end_offset": 57
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 58,
+						"end_offset": 72
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "ALERT: You&apos;ve spent Rs.6600.48  on CREDIT Card xx6749 at _ARVIND LIFESTYLE.. on 2021-08-13:15:43:46.Avl bal - Rs.528425.52, curr o/s - Rs.29574.48.Not you? Call 18002586161."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 97,
+						"end_offset": 119
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 25,
+						"end_offset": 36
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 37,
+						"end_offset": 58
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 59,
+						"end_offset": 79
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "ALERT: You&apos;ve spent Rs.250.80  on CREDIT Card xx6749 at PAYTM3802839 on 2021-08-12:23:22:52.Avl bal - Rs.535026.20, curr o/s - Rs.22973.80.Not you? Call 18002586161."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 105,
+						"end_offset": 127
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 25,
+						"end_offset": 34
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 36,
+						"end_offset": 57
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 58,
+						"end_offset": 66
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "ALERT:You&apos;ve spent Rs.4480.00 via Debit Card xx0216 at KALPANA FAMILY WEAR 1 on 2021-08-12:19:06:12.Avl Bal Rs.14604.29.Not you?Call 18002586161."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 97,
+						"end_offset": 119
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 24,
+						"end_offset": 34
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 35,
+						"end_offset": 56
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 57,
+						"end_offset": 82
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "ALERT:You&apos;ve spent Rs.627.00 via Debit Card xx0216 at RITZ CONTINENTAL on 2021-08-12:14:04:14.Avl Bal Rs.19084.29.Not you?Call 18002586161."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 105,
+						"end_offset": 124
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 24,
+						"end_offset": 33
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 34,
+						"end_offset": 55
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 56,
+						"end_offset": 75
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "UPDATE: INR 10,023.60 debited from HDFC Bank XX6531 on 12-AUG-21. Info: UPI-WazirX-wazirx.airpay@sbi-SBIN0016209-122401688583-NA. Avl bal:INR 19,711.2"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 99,
+						"end_offset": 119
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 7,
+						"end_offset": 21
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 30,
+						"end_offset": 51
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 72,
+						"end_offset": 100
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "ALERT:Rs.119.00 spent via CREDIT Card xx6749 at SPOTIFY3244046 on 2021-08-09:21:54:10 without PIN/OTP.Not you?Call 18002586161."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 130,
+						"end_offset": 150
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 6,
+						"end_offset": 15
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 22,
+						"end_offset": 44
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "ALERT: You&apos;ve spent Rs.371.28  on CREDIT Card xx6749 at A MEDIUM CORPORATION on 2021-08-09:18:50:14.Avl bal - Rs.535406.72, curr o/s - Rs.22593.28.Not you? Call 18002586161."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 45,
+						"end_offset": 55
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 25,
+						"end_offset": 34
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 36,
+						"end_offset": 57
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 58,
+						"end_offset": 82
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "UPDATE: INR 80,000.00 debited from HDFC Bank XX6531 on 09-AUG-21. Info: UPI-XXXXXX9938-SBIN0011643-122199286278-UPI. Avl bal:INR 29,867.8"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 105,
+						"end_offset": 127
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 7,
+						"end_offset": 21
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 30,
+						"end_offset": 51
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 72,
+						"end_offset": 111
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs. 80000.00 debited from a/c **6531 on 09-08-21 to a/c **9938 (UPI Ref No. 122199286278). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 117,
+						"end_offset": 137
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 24
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 32,
+						"end_offset": 47
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "ALERT:Rs.199.00 spent via CREDIT Card xx6749 at AMAZON1258399 on 2021-08-08:19:10:19 without PIN/OTP.Not you?Call 18002586161."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 75,
+						"end_offset": 99
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 6,
+						"end_offset": 15
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 22,
+						"end_offset": 37
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 1495.00 debited from a/c **6531 on 08-08-21 to VPA billdesk.broadband@icici(UPI Ref No 122086194190). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 45,
+						"end_offset": 54
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 21
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 30,
+						"end_offset": 45
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "UPDATE: INR 10,023.60 debited from HDFC Bank XX6531 on 07-AUG-21. Info: UPI-WazirX-wazirx.airpay@sbi-SBIN0016209-121919556180-NA. Avl bal:INR 1,21,386.4"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 58,
+						"end_offset": 89
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 8,
+						"end_offset": 21
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 30,
+						"end_offset": 51
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 66,
+						"end_offset": 100
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 10023.60 debited from a/c **6531 on 07-08-21 to VPA wazirx.airpay@sbi(UPI Ref No 121919556180). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 130,
+						"end_offset": 152
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 22
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 31,
+						"end_offset": 46
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 5100.00 debited from a/c **6531 on 05-08-21 to VPA harshsrivastav123@oksbi(UPI Ref No 121746548206). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 59,
+						"end_offset": 83
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 10,
+						"end_offset": 21
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 30,
+						"end_offset": 45
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "DEAR CARDMEMBER, PAYMENT OF Rs. 17456.00 RECEIVED TOWARDS YOUR CREDIT CARD ENDING 6749 THROUGH Autopay ON 5-8-2021.YOUR AVAILABLE LIMIT IS RS. 535977.1"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 58,
+						"end_offset": 88
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 28,
+						"end_offset": 40
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 63,
+						"end_offset": 86
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 87,
+						"end_offset": 102
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 1000.00 debited from a/c **6531 on 31-07-21 to VPA technobeamit@okicici(UPI Ref No 121286823165). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 116,
+						"end_offset": 151
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 21
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 30,
+						"end_offset": 45
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "ALERT:You&apos;ve spent Rs.992.50 via Debit Card xx0216 at HPCL GOVIND RAM   COMP on 2021-07-31:21:36:06.Avl Bal Rs.153766.09.Not you?Call 18002586161."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 58,
+						"end_offset": 85
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 24,
+						"end_offset": 33
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 34,
+						"end_offset": 55
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 56,
+						"end_offset": 81
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs. 1000.00 credited to a/c XXXXXX6531 on 31-07-21 by a/c linked to VPA technobeamit@okicici (UPI Ref No  121224642656)."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 105,
+						"end_offset": 125
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 22
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 32,
+						"end_offset": 49
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 499.00 debited from a/c **6531 on 30-07-21 to VPA billdesk.prepaid-mobile@icici(UPI Ref No 121167523180). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 76,
+						"end_offset": 103
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 20
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 29,
+						"end_offset": 44
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "ALERT:You&apos;ve spent Rs.605.00 via Debit Card xx0216 at PAYTM3852399 on 2021-07-29:15:39:35.Avl Bal Rs.157382.17.Not you?Call 18002586161."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 57,
+						"end_offset": 93
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 24,
+						"end_offset": 33
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 34,
+						"end_offset": 55
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 56,
+						"end_offset": 72
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "ALERT:Rs.799.00 spent via CREDIT Card xx6749 at NETFLIX3173846 on 2021-07-28:23:24:40 without PIN/OTP.Not you?Call 18002586161."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 95,
+						"end_offset": 116
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 6,
+						"end_offset": 15
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 22,
+						"end_offset": 44
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "UPDATE: INR 10,000.00 debited from HDFC Bank XX6531 on 28-JUL-21. Info: UPI-Zerodha Broking Ltd-zerodhabroking@hdfcbank-HDFC0000523-120941577996-Kite deposit 63167. Avl bal:INR 1,57,971.1"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 45,
+						"end_offset": 55
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 8,
+						"end_offset": 21
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 30,
+						"end_offset": 51
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 66,
+						"end_offset": 95
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 10000.00 debited from a/c **6531 on 28-07-21 to VPA zerodhabroking@hdfcbank(UPI Ref No 120941577996). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 165,
+						"end_offset": 187
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 22
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 30,
+						"end_offset": 46
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 20.00 debited from a/c **6531 on 25-07-21 to VPA uberrides@hdfcbank(UPI Ref No 120610627018). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 59,
+						"end_offset": 80
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 19
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 28,
+						"end_offset": 43
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 142.00 debited from a/c **6531 on 25-07-21 to VPA olacabs1@axisbank(UPI Ref No 120608696825). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 55,
+						"end_offset": 81
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 20
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 28,
+						"end_offset": 44
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 1518.00 debited from a/c **6531 on 21-07-21 to VPA akashjaiswal2230-1@okaxis(UPI Ref No 120271629917). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 57,
+						"end_offset": 81
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 21
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 30,
+						"end_offset": 45
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs. 603.00 credited to a/c XXXXXX6531 on 18-07-21 by a/c linked to VPA amazon.refunds@axisbank (UPI Ref No  119918077660)."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 58,
+						"end_offset": 83
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 21
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 31,
+						"end_offset": 48
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 633.00 debited from a/c **6531 on 18-07-21 to VPA amazonpay@apl(UPI Ref No 119917432195). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 75,
+						"end_offset": 105
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 20
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 29,
+						"end_offset": 44
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 399.00 debited from a/c **6531 on 13-07-21 to VPA amazon@apl(UPI Ref No 119417671939). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 163,
+						"end_offset": 163
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 20
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 29,
+						"end_offset": 44
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs. 20000.00 credited to a/c XXXXXX6531 on 13-07-21 by a/c linked to VPA dksrivastav12378@oksbi (UPI Ref No  119416212174)."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 57,
+						"end_offset": 74
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 23
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 33,
+						"end_offset": 50
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 1394.58 debited from a/c **6531 on 13-07-21 to VPA paytm-651536@paytm(UPI Ref No 119400648107). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 77,
+						"end_offset": 107
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 22
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 30,
+						"end_offset": 45
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 5500.00 debited from a/c **6531 on 12-07-21 to VPA atulkumar66216@okaxis(UPI Ref No 119372261538). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 58,
+						"end_offset": 83
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 21
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 30,
+						"end_offset": 45
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "UPDATE: INR 10,000.00 deposited in A/c XX6531 on 11-JUL-21 for UPI-KUNAL MAJUMDAR-kunalarsnl@okicici-ICIC0006493-119288104815-UPI.Avl bal:INR 21,647.85 subject to clearing"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 58,
+						"end_offset": 86
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 8,
+						"end_offset": 22
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 32,
+						"end_offset": 45
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 59,
+						"end_offset": 82
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs. 10000.00 credited to a/c XXXXXX6531 on 11-07-21 by a/c linked to VPA kunalarsnl@okicici (UPI Ref No  119288104815)."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 130,
+						"end_offset": 151
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 23
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 33,
+						"end_offset": 50
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "ALERT: You&apos;ve spent Rs.269.00  on CREDIT Card xx6749 at Steam Purchase on 2021-07-10:20:10:29.Avl bal - Rs.470957.00, curr o/s - Rs.37043.00.Not you? Call 18002586161."
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 77,
+						"end_offset": 94
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 25,
+						"end_offset": 34
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 36,
+						"end_offset": 57
+					}
+				},
+				"display_name": "payer"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 58,
+						"end_offset": 75
+					}
+				},
+				"display_name": "balance"
+			}
+		]
+	},
+	{
+		"text_snippet": {
+			"content": "HDFC Bank: Rs 1495.00 debited from a/c **6531 on 10-07-21 to VPA billdesk.broadband@icici(UPI Ref No 119151681265). Not you? Call on 18002586161 to report"
+		},
+		"annotations": [
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 99,
+						"end_offset": 122
+					}
+				},
+				"display_name": "amount"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 11,
+						"end_offset": 21
+					}
+				},
+				"display_name": "accountNumber"
+			},
+			{
+				"text_extraction": {
+					"text_segment": {
+						"start_offset": 30,
+						"end_offset": 45
+					}
+				},
+				"display_name": "payer"
+			}
+		]
+	}
+]
