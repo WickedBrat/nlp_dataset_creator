@@ -20,12 +20,12 @@ export default function Home() {
 			setBankSmsCount(bankSmsCount + 1);
 			setDocumentList(documentList.concat(nlpDocument));
 			setnlpDocument({});
+			updateLocalStorage();
 		}
 		clearSelection();
 	};
 
 	const addEventListeners = () => {
-		updateLocalStorage();
 		document.body.onkeyup = function (e) {
 			if (e.key === "r") {
 				refreshFromLocalStorage();
