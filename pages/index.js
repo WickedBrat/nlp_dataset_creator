@@ -10,26 +10,39 @@ export default function Home() {
 	const [startOffset, setStartOffset] = useState(0);
 	const [endOffset, setEndOffset] = useState(0);
 	const [cursor, setCursor] = useState(0);
-	const numberOfFeatures = 6;
-	var featureList = ["amount", "transactionType", "accountNumber", "date", "payer", "balance"];
+	const numberOfFeatures = 4;
+	const classList = "flex items-center px-8 py-4 rounded-xl shadow-md";
+	var featureList = ["amount", "accountNumber", "payer", "balance"];
 
 	const addEventListeners = () => {
 		document.body.onkeyup = function (e) {
-			setnlpDocument(
-				getUpdatedDocument(startOffset, endOffset, bankSms[bankSmsCount], featureList[cursor], nlpDocument)
-			);
-			setCursor((cursor + 1) % numberOfFeatures);
-			if ((cursor + 1) % numberOfFeatures === 0) {
-				setBankSmsCount(bankSmsCount + 1);
-				setDocumentList(documentList.concat(nlpDocument));
+			console.log(e);
+			if (e.key === "r") {
+				refreshFromLocalStorage();
+			} else if (e.key === " ") {
+				{
+					setnlpDocument(
+						getUpdatedDocument(startOffset, endOffset, bankSms[bankSmsCount], featureList[cursor], nlpDocument)
+					);
+					setCursor((cursor + 1) % numberOfFeatures);
+					if ((cursor + 1) % numberOfFeatures === 0) {
+						setBankSmsCount(bankSmsCount + 1);
+						setDocumentList(documentList.concat(nlpDocument));
+						setnlpDocument({});
+						updateLocalStorage();
+					}
+					clearSelection();
+				}
+			} else if (e.key === "s") {
+				setCursor((cursor + 1) % numberOfFeatures);
+			} else if (e.key === "d") {
+				setCursor(0);
 				setnlpDocument({});
-				updateLocalStorage();
+				setBankSmsCount(bankSmsCount + 1);
 			}
-			clearSelection();
 		};
 	};
 
-	// clear text selection
 	const clearSelection = () => {
 		if (window.getSelection) {
 			if (window.getSelection().empty) {
@@ -42,8 +55,14 @@ export default function Home() {
 		}
 	};
 
+	const refreshFromLocalStorage = () => {
+		setBankSmsCount(JSON.parse(localStorage.getItem("documentCount")) || 0);
+		setDocumentList(JSON.parse(localStorage.getItem("documentList")) || []);
+	};
+
 	useEffect(() => {
 		setBankSms(smsJson);
+
 		var elem = document.getElementById("text");
 		addEventListeners();
 
@@ -76,7 +95,8 @@ export default function Home() {
 	};
 
 	const updateLocalStorage = () => {
-		localStorage.setItem("documentList", documentList);
+		localStorage.setItem("documentList", JSON.stringify(documentList || []));
+		localStorage.setItem("documentCount", bankSmsCount);
 	};
 
 	return (
@@ -92,58 +112,16 @@ export default function Home() {
 				<h2 className="text-center font-medium text-2xl" id="text">
 					{bankSms[bankSmsCount]}
 				</h2>
-				<div className="flex justify-center">
+				<div className="flex justify-center items-center text-center">
 					Start Offset: {startOffset} | End Offset: {endOffset}
+					<br />
+					Messages Completed: {bankSmsCount}/{bankSms.length}
 				</div>
 				<div className="flex justify-between w-9/12 pb-10">
-					<div
-						className={
-							"flex items-center px-8 py-4 rounded-xl bg-green-500 shadow-md " +
-							(cursor === 0 && "border-t-4 border-black")
-						}
-					>
-						Money
-					</div>
-					<div
-						className={
-							"flex items-center px-8 py-4 rounded-xl bg-yellow-700 shadow-md " +
-							(cursor === 1 && "border-t-4 border-black")
-						}
-					>
-						Transaction Type
-					</div>
-					<div
-						className={
-							"flex items-center px-8 py-4 rounded-xl bg-red-500 shadow-md " +
-							(cursor === 2 && "border-t-4 border-black")
-						}
-					>
-						A/c number
-					</div>
-					<div
-						className={
-							"flex items-center px-8 py-4 rounded-xl bg-blue-500 shadow-md " +
-							(cursor === 3 && "border-t-4 border-black")
-						}
-					>
-						Date
-					</div>
-					<div
-						className={
-							"flex items-center px-8 py-4 rounded-xl bg-yellow-500 shadow-md " +
-							(cursor === 4 && "border-t-4 border-black")
-						}
-					>
-						Payer
-					</div>
-					<div
-						className={
-							"flex items-center px-8 py-4 rounded-xl bg-purple-500 shadow-md " +
-							(cursor === 5 && "border-t-4 border-black")
-						}
-					>
-						Available Bal
-					</div>
+					<div className={classList + " bg-green-500 " + (cursor === 0 && "ring-4 ring-black")}>Money</div>
+					<div className={classList + " bg-red-500 " + (cursor === 1 && "ring-4 ring-black")}>A/c number</div>
+					<div className={classList + " bg-yellow-500 " + (cursor === 2 && "ring-4 ring-black")}>Payer</div>
+					<div className={classList + " bg-purple-500 " + (cursor === 3 && "ring-4 ring-black")}>Available Bal</div>
 				</div>
 			</main>
 		</div>
