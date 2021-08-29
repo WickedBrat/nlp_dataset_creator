@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.299.00  on CREDIT Card xx6749 at GOOGLE *Bumble on 2021-07-04:01:20:49.Avl bal - Rs.451605.00, curr o/s - Rs.56395.00.Not you? Call 18002586161.

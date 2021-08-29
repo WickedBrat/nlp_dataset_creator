@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.120.00  on CREDIT Card xx6749 at GOOGLE *HEADSPACE INC on 2021-04-04:07:17:52.Avl bal - Rs.435009.00, curr o/s - Rs.72991.00.Not you? Call 18002586161.

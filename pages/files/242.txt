@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.449.00  on CREDIT Card xx6749 at GOOGLE *Supercell on 2021-02-14:19:34:32.Avl bal - Rs.432405.00, curr o/s - Rs.75595.00.Not you? Call 18002586161.

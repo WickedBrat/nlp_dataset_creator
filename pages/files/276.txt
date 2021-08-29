@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.7630.00  on CREDIT Card xx6749 at KALPANA FAMILY WEAR 1 on 2021-01-26:14:02:11.Avl bal - Rs.417673.00, curr o/s - Rs.90327.00.Not you? Call 18002586161.

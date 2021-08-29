@@ -1,0 +1,1 @@
+ALERT:You&apos;ve spent Rs.3500.00 via Debit Card xx0216 at LIBERTY. on 2021-01-29:16:54:28.Avl Bal Rs.476078.64.Not you?Call 18002586161.

@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.832.00  on CREDIT Card xx6749 at PAYTM3802839 on 2020-11-19:13:30:27.Avl bal - Rs.410481.00, curr o/s - Rs.97519.00.Not you? Call 18002586161.

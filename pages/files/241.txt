@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.500.00  on CREDIT Card xx6749 at PRAMOD KUMAR AGARWAL on 2021-02-15:14:29:19.Avl bal - Rs.431305.30, curr o/s - Rs.76694.70.Not you? Call 18002586161.

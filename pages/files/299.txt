@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.426.00  on CREDIT Card xx6749 at K S BUSINESS CENTRE on 2021-01-03:18:46:57.Avl bal - Rs.398180.25, curr o/s - Rs.109819.75.Not you? Call 18002586161.

@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.2.00  on CREDIT Card xx6749 at AMAZON PAY INDIA PRIVA on 2020-11-11:18:43:31.Avl bal - Rs.412613.00, curr o/s - Rs.95387.00.Not you? Call 18002586161.

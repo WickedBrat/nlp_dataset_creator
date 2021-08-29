@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.6024.00  on CREDIT Card xx6749 at Chaudhary Charan Singh on 2021-04-19:22:34:59.Avl bal - Rs.431947.00, curr o/s - Rs.76053.00.Not you? Call 18002586161.

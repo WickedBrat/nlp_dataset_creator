@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.209.00  on CREDIT Card xx6749 at FOOD STREET, on 2021-08-14:18:42:01.Avl bal - Rs.525030.00, curr o/s - Rs.32970.00.Not you? Call 18002586161.

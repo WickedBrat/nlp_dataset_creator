@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.371.28  on CREDIT Card xx6749 at A MEDIUM CORPORATION on 2021-08-09:18:50:14.Avl bal - Rs.535406.72, curr o/s - Rs.22593.28.Not you? Call 18002586161.

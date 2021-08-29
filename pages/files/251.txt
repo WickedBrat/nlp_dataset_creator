@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.414.00  on CREDIT Card xx6749 at www.airtel.in on 2021-02-09:21:12:01.Avl bal - Rs.433373.30, curr o/s - Rs.74626.70.Not you? Call 18002586161.

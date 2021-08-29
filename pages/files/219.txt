@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.330.96  on CREDIT Card xx6749 at GOOGLE *Mega Limited on 2021-03-02:23:52:06.Avl bal - Rs.407957.04, curr o/s - Rs.100042.96.Not you? Call 18002586161.

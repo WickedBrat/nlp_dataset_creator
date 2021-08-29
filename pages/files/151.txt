@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.300.00  on CREDIT Card xx6749 at Bharti Airtel Limited on 2021-04-28:19:48:09.Avl bal - Rs.448567.00, curr o/s - Rs.59433.00.Not you? Call 18002586161.

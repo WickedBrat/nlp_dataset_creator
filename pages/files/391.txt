@@ -1,0 +1,1 @@
+ALERT:You&apos;ve withdrawn Rs.4000.00 via Debit Card xx0216 at GOLE MARKET S1 on 2020-08-13:19:15:18.Avl Bal Rs.284402.73.Not you?Call 18002586161.

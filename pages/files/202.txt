@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.522.80  on CREDIT Card xx6749 at SWIGGY on 2021-03-08:13:49:07.Avl bal - Rs.424760.53, curr o/s - Rs.83239.47.Not you? Call 18002586161.

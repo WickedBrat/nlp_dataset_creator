@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.300.00  on CREDIT Card xx6749 at AMAZON on 2021-02-15:14:49:42.Avl bal - Rs.430452.30, curr o/s - Rs.77547.70.Not you? Call 18002586161.

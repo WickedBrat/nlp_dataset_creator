@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.989.00  on CREDIT Card xx6749 at RETAIL  CC            MUM on 2020-10-28:19:41:48.Avl bal - Rs.315493.00, curr o/s - Rs.108507.00.Not you? Call 18002586161.

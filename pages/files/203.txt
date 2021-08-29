@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.251.00  on CREDIT Card xx6749 at airtel20upep on 2021-03-08:13:15:05.Avl bal - Rs.425283.33, curr o/s - Rs.82716.67.Not you? Call 18002586161.

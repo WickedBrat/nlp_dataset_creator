@@ -81,7 +81,7 @@ export default function Home() {
 			},
 			false
 		);
-	}, [cursor, bankSmsCount, documentList, nlpDocument, startOffset, endOffset]);
+	}, [cursor, bankSmsCount, documentList, nlpDocument, startOffset, endOffset, bankSms]);
 
 	const getUpdatedDocument = (start, end, text, feature, nlpDoc) => {
 		var document = nlpDoc;

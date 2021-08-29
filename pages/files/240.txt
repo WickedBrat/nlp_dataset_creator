@@ -1,0 +1,1 @@
+ALERT: You&apos;ve spent Rs.553.00  on CREDIT Card xx6749 at AGARWAL PHARMACY on 2021-02-15:14:41:57.Avl bal - Rs.430752.30, curr o/s - Rs.77247.70.Not you? Call 18002586161.
